@@ -3,4 +3,4 @@
 ## Personal WebPage
 
 
-# :heart: OLIVER EU TE AMO ! :heart:
+#  OLIVER EU TE AMO ! 
