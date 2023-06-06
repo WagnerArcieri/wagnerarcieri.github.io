@@ -1,21 +1,33 @@
-/* styles.css */
-body {
-  font-family: Arial, sans-serif;
-  background-color: black;
-  color: white;
+/* Estilos gerais */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos do cabeçalho */
 header {
-  background-color: black;
+  background-color: #333;
+  color: #fff;
   padding: 20px;
   text-align: center;
 }
 
-h1 {
-  margin: 0;
-  color: orange;
+header h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
 nav ul {
@@ -30,40 +42,64 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
-section {
-  padding: 50px;
+/* Estilos das seções */
+.section {
+  background-color: #fff;
+  padding: 40px;
+  margin-bottom: 40px;
 }
 
-h2 {
-  color: orange;
+.section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+/* Estilos dos botões */
+.cv-button {
+  display: inline-block;
+  background-color: orange;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+  background-color: #ff6600;
+}
+
+.social-media {
+  margin-top: 20px;
 }
 
 .social-media a {
   display: inline-block;
   margin-right: 10px;
   background-color: orange;
-  color: black;
-  padding: 10px 20px;
+  color: #fff;
+  padding: 10px;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
 }
 
-.cv-button {
-  display: inline-block;
-  margin-top: 20px;
-  background-color: orange;
-  color: black;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
+.social-media a:hover {
+  background-color: #ff6600;
 }
 
+/* Estilos do rodapé */
 footer {
-  background-color: black;
+  background-color: #333;
+  color: #fff;
   padding: 20px;
   text-align: center;
 }
